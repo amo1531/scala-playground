@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/amo1531/Side/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CollectionMethods$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanionObjectExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReadFromFileExample$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PartiallyAppliedFunctionExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CollectionMethods.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$UserId.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClosureExample$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReadFromFileExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CollectionMethodsExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PartiallyAppliedFunctionExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanionObjectExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Foo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloActor$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PartiallyAppliedFunctionExample$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CollectionMethodsExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CollectionMethods$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClosureExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReadFromFileExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ClosureExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$UserId$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/amo1531/Side/target/scala-2.13/classes.bak[0m
