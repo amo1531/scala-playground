@@ -39,18 +39,39 @@ object CustomImplementations {
 object UniqueIndexString extends App {
 
   val string1 = "Statistics"
-  val string2 = "Kaka"
+  val string2 = "hackthegame"
   val string3 = "Jacoco"
   val string4 = "notification"
 
-  def getUniqueIndex(str: String): Seq[(Char, Int)] =
+
+  def getUniqueIndex(str: String) =
     str
-      .stringToIndexedMap
-      .getUniqueIndexes
+      .toLowerCase
+      .zipWithIndex
+      .map(obj => (obj._1, obj._2 + 1) )
+      .toList
+      .groupBy(_._1)
+      .filter(obj => obj._2.length == 1)
+      .values
+      .flatten
+      .toList
+
+
+
 
   println(getUniqueIndex((string1)))
   println(getUniqueIndex((string2)))
   println(getUniqueIndex((string3)))
   println(getUniqueIndex((string4)))
+
+//  def getUniqueIndex(str: String): Seq[(Char, Int)] =
+//    str
+//      .stringToIndexedMap
+//      .getUniqueIndexes
+//
+//  println(getUniqueIndex((string1)))
+//  println(getUniqueIndex((string2)))
+//  println(getUniqueIndex((string3)))
+//  println(getUniqueIndex((string4)))
 
 }

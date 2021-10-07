@@ -1,4 +1,4 @@
-//def pref(s: String, t: String, out: String = ""): String = {
+  //def pref(s: String, t: String, out: String = ""): String = {
 //  println(s"string1: $s, string2: $t and output: $out")
 //  if (s == "" || t == "" || s(0) != t(0)) out
 //  else pref(s.substring(1), t.substring(1), out + s(0))
